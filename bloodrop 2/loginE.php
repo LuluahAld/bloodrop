@@ -1,0 +1,95 @@
+<?php
+
+$is_invalid = false;
+
+session_start();
+if (isset($_SESSION['loggedin'])) {
+	header('Location: alrlogin.php');
+	exit;
+}
+
+if ($_SERVER["REQUEST_METHOD"] === "POST") {
+    
+    $mysqli = require __DIR__ . "/database.php";
+    
+    $sql = sprintf("SELECT * FROM user
+                    WHERE email = '%s'",
+                   $mysqli->real_escape_string($_POST["email"]));
+    
+    $result = $mysqli->query($sql);
+    
+    $user = $result->fetch_assoc();
+    if ($user) {
+        
+        if (password_verify($_POST["password"], $user["password_hash"])) {
+           $email = $_POST['email'];
+            $sql="select * from user where (email='$email');";;
+            $result=mysqli_query($mysqli,$sql);
+            $singleRow = mysqli_fetch_row($result);
+            
+		    $_SESSION['loggedin'] = TRUE;
+		    $_SESSION['username'] = $singleRow['0'];
+            $_SESSION['email'] = $_POST['email'];
+        header("Location: index.php");
+        exit;
+        }
+    }
+    $is_invalid = true;
+
+}
+
+?>
+<!DOCTYPE html>
+<!--Luluah Mohammed Aldakhil 1808720
+    Rofidah Jamal Banabilah 1905947
+    B9A
+    Tuesday, October 18th, 2022
+-->
+<!---->
+<html>
+
+<head>
+    <title>Bloodrop</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../CSS/style.css" /> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
+    <link rel="stylesheet" href="../CSS/style2.css" /> 
+    
+
+</head>
+
+ 
+
+<body>
+<?php include('navbar.php'); ?>
+<br><br><br><br><br><br>
+     
+     
+     <br><br><br> 
+    <form method= "post">  
+        <div class="container"> 
+            <!--uploading logo-->
+     
+        <img src="../images/logo.PNG" alt="" width="230" height="175" />
+    
+    <br>
+    <!--beginning of input & labels for login info-->
+    <br>  
+            <label for="email"> Email </label>  <br> 
+            <input type="text" placeholder="Enter Email" name="email" id = "email" value="<?= htmlspecialchars($_POST["email"] ?? "") ?>"  required>  <br> <br>
+            <label for="password">Password </label>   <br>
+            <input type="password" placeholder="Enter Password" name="password" id = "password" required >  
+            <button type="submit" style = "font-size: 25px;">Login</button>   
+            <br><br> 
+            <?php if ($is_invalid): ?>
+        <em style="color: red ; font-size: 18px;"><b>User information is not valid<br>
+            (Please check login credentials)</b></em>
+    <?php endif; ?>
+    <br><br>
+            <a href="signup.php" style="color: black ; font-size: 18px;"  > Don't have an account? Signup </a>   
+        </div>   
+    </form>     
+
+</body>
+
+</html>

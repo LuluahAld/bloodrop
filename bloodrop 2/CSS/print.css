@@ -1,0 +1,10 @@
+
+
+@media print{
+    
+    header, footer, aside, nav, form,img,ul, .dropdown, title, .cr,h1{
+        display: none;
+      }
+ 
+      
+}
