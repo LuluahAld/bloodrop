@@ -48,7 +48,7 @@ session_start();
             <fieldset >
                 <br>
                 <a style = "font-size: 25px;">Contact Information</a><br><br>
-                
+                <a>(We need your valid email in order to respond)</a>
                 <input type="hidden" name="_next" value="https://bloo-drop.herokuapp.com/thanks.php">
                 <input type="hidden" name="_captcha" value="false">
                 
