@@ -53,16 +53,16 @@ session_start();
                 <input type="hidden" name="_captcha" value="false">
                 
                  
-                 <label for="nameC"> Username</label>  <br> 
+                 <label for="nameC">Name</label>  <br> 
                  <input align="middle" style="width:80%;" type="text" name="nameC" id="nameC" placeholder="Enter name" ><br>
                
-                 <label for="emailC"> Username</label>  <br> 
+                 <label for="emailC">Email</label>  <br> 
                 <input  align="middle"style="width:80%;" type="text" name="emailC" id="emailC" placeholder="Enter email" ><br>
                 
-                 <label for="messegeContact"> Username</label>  <br> 
+                 <label for="messegeContact">Concern</label>  <br> 
                 <input align="middle" style="width:80%; height: 130%" type="text" name="messegeContact" id="messegeContact" placeholder="Enter message" required>
                 <a href="thanks.php">
-                <button type="submit" style = "font-size:23px;">Send Concern</button>
+                <button type="submit" style = "font-size:23px;">Submit</button>
                 </a>
                 <br><br>
             </fieldset>
