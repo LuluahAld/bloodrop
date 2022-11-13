@@ -149,7 +149,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             <?php if ($invalidPs): ?>
         <em style="color: red ; font-size: 20px; text-allign: left"><b> <br>
         Password must be at least 8 characters
-            </b></em>
+            </b></em><br>
             
     <?php endif; ?> 
     <?php if ($invalidPl): ?>
