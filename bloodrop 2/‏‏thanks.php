@@ -25,13 +25,14 @@ session_start();
     <!--uploading logo-->
    
     
-
+<br><br><br><br>
     <div class="container">
         <br>
     <img src="../images/logo.PNG" alt="" width="230" height="175" />
     <br>
         <h1>Thank You!</h1>
         Your concern is sent.<br> We will take it into careful consideration and responsd back as soon as possible
+        <br>
     </div>
     <br><br><br><br>
 </body>
