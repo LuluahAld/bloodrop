@@ -44,16 +44,16 @@ session_start();
     <!-- four columns for small pictures -->
     <div class="rowG">
         <span class="columnG">
-            <img src="../images/G1.png" alt="" width="100%" height="100%" onclick="myFunction(this);">
+            <img src="../images/G1.png" alt="" width="95%" height="100%" onclick="myFunction(this);">
 </span>
         <span class="columnG">
-            <img src="../images/G2.png" alt="" width="100%" height="100%" onclick="myFunction(this);">
+            <img src="../images/G2.png" alt="" width="95%" height="100%" onclick="myFunction(this);">
 </span>
         <span class="columnG">
-            <img src="../images/G3.png" alt="" width="100%" height="100%" onclick="myFunction(this);">
+            <img src="../images/G3.png" alt="" width="95%" height="100%" onclick="myFunction(this);">
 </span>
         <span class="columnG">
-            <img src="../images/G4.png" alt="" width="100%" height="100%" onclick="myFunction(this);">
+            <img src="../images/G4.png" alt="" width="95%" height="100%" onclick="myFunction(this);">
 </span>
     </div>
     <!--display the big picture-->
