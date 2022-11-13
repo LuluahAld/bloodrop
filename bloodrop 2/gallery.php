@@ -44,22 +44,22 @@ session_start();
     <!-- four columns for small pictures -->
     <div class="rowG">
         <span class="columnG">
-            <img src="../images/G1.png" alt="" width="50%" height="10%" onclick="myFunction(this);">
+            <img src="../images/G1.png" alt="" width="100%" height="100%" onclick="myFunction(this);">
 </span>
         <span class="columnG">
-            <img src="../images/G2.png" alt="" width="20%" height="10%" onclick="myFunction(this);">
+            <img src="../images/G2.png" alt="" width="100%" height="100%" onclick="myFunction(this);">
 </span>
         <span class="columnG">
-            <img src="../images/G3.png" alt="" width="20%" height="10%" onclick="myFunction(this);">
+            <img src="../images/G3.png" alt="" width="100%" height="100%" onclick="myFunction(this);">
 </span>
         <span class="columnG">
-            <img src="../images/G4.png" alt="" width="20%" height="10%" onclick="myFunction(this);">
+            <img src="../images/G4.png" alt="" width="100%" height="100%" onclick="myFunction(this);">
 </span>
     </div>
     <!--display the big picture-->
     <div class="containerG">
         <span onclick="this.parentElement.style.display='none'" class="closebtnG">&times;</span>
-        <img id="expandedImg" width="80%">
+        <img id="expandedImg" width="100%">
         <div id="imgtext"></div>
     </div>
     <script src="gallery.js"></script>
