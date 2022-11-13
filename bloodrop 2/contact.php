@@ -46,13 +46,13 @@ session_start();
                 <br><br>
                 <input type="hidden" name="_next" value="https://bloo-drop.herokuapp.com/thanks.php">
                 <input type="hidden" name="_captcha" value="false">
-                <br>
+               
                 <label for="nameC">Name</label> 
                  <input type="text" name="nameC" id="nameC" placeholder="Enter your name" required>
-                <br>
+               
                 <label for="emailC">Email </label> 
                 <input type="text" name="emailC" id="emailC" placeholder="Enter your email" required>
-                <br>
+                
                 <label for="messageContact">Concern</label> 
                 <input type="text" name="messegeContact" id="messegeContact" placeholder="Enter your message" required>
                 <br><br>
