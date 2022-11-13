@@ -61,8 +61,9 @@ session_start();
                 
                 <a style = "font-size = 20px;">Concern</a> <br> 
                 <input align="middle" style="width:80%; height: 130%" type="text" name="messegeContact" id="messegeContact" placeholder="Enter message" required>
-                
+                <a href="thanks.php">
                 <button type="submit" style = "font-size:23px;">Send Concern</button>
+                </a>
                 <br><br>
             </fieldset>
             
