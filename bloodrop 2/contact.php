@@ -49,7 +49,7 @@ session_start();
                 <input type="hidden" name="_captcha" value="false">
                
                 <label for="nameC">Name</label> 
-                 <input type="text" name="nameC" id="nameC" placeholder="Enter your name"  width = 100% required>
+                 <input style="width:100%;" type="text" name="nameC" id="nameC" placeholder="Enter your name"  required>
                
                 <label for="emailC">Email </label> 
                 <input type="text" name="emailC" id="emailC" placeholder="Enter your email" required>
