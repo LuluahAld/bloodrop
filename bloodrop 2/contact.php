@@ -55,10 +55,10 @@ session_start();
                 <input type="hidden" name="_captcha" value="false">
                  
                 <label for="nameC">Name</label> <br> 
-                 <input class="center-block" style="width:80%;" type="text" name="nameC" id="nameC" placeholder="Enter your name"  required>
+                 <input class="center-block" style="width:80%;" type="text" name="nameC" id="nameC" placeholder="Enter name"  required>
                
                 <label for="emailC">Email </label> <br> 
-                <input class="center-block" style="width:80%;" type="text" name="emailC" id="emailC" placeholder="Enter your email" required>
+                <input class="center-block" style="width:80%;" type="text" name="emailC" id="emailC" placeholder="Enter email" required>
                 
                 <label for="messageContact">Concern</label> <br> 
                 <input class="center-block" style="width:80%;" type="text" name="messegeContact" id="messegeContact" placeholder="Enter your message" required>
