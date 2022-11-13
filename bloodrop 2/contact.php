@@ -12,7 +12,13 @@ session_start();
 -->
 <!---->
 <html>
-
+<style>
+    
+    .center-block {
+  margin: auto;
+  display: block;
+}
+ </style>
 <head>
     <title>Contact Us</title>
     <meta charset="UTF-8">
@@ -49,13 +55,13 @@ session_start();
                 <input type="hidden" name="_captcha" value="false">
                  
                 <label for="nameC">Name</label> <br> 
-                 <input style="width:80%;" type="text" name="nameC" id="nameC" placeholder="Enter your name"  required>
+                 <input class="center-block" style="width:80%;" type="text" name="nameC" id="nameC" placeholder="Enter your name"  required>
                
                 <label for="emailC">Email </label> <br> 
-                <input style="width:80%;" type="text" name="emailC" id="emailC" placeholder="Enter your email" required>
+                <input class="center-block" style="width:80%;" type="text" name="emailC" id="emailC" placeholder="Enter your email" required>
                 
                 <label for="messageContact">Concern</label> <br> 
-                <input style="width:80%;" type="text" name="messegeContact" id="messegeContact" placeholder="Enter your message" required>
+                <input class="center-block" style="width:80%;" type="text" name="messegeContact" id="messegeContact" placeholder="Enter your message" required>
                 
                 <button type="submit" style = "font-size:23px;">Send Concern</button>
                 <br><br>
