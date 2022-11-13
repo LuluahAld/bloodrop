@@ -33,7 +33,7 @@ session_start();
 
 
     <!--Start div for contact information-->
-    <div class="container">
+    <div class="pages">
         <h1>Find us here!</h1>
 
         <br><br>
@@ -62,7 +62,7 @@ session_start();
             </fieldset>
             
         </form>
-        </div>
+        
             
         &nbsp;&nbsp;
         <br><br><br>
@@ -94,7 +94,7 @@ session_start();
     
     <br><br><br><br>
     <script src="../javascript/email.js"></script>
-
+</div>
 </body>
 
 </html>
