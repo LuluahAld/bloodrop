@@ -155,19 +155,19 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <?php if ($invalidPl): ?>
         <em style="color: red ; font-size: 20px; text-allign: left"><b>
         <br>Password must contain at least one letter
-            </b></em>
+            </b></em><br>
             
     <?php endif; ?> 
     <?php if ($invalidPn): ?>
         <em style="color: red ; font-size: 20px; text-allign: left"><b>
         <br>Password must contain at least one number
-            </b></em>
+            </b></em><br>
             
     <?php endif; ?>
      <?php if ($invalidPm): ?>
         <em style="color: red ; font-size: 20px; text-allign: left"><b>
         <br>Passwords must match
-            </b></em>
+            </b></em><br>
             
     <?php endif; ?> 
             <button type="submit" style = "font-size: 23px;">Signup</button>   
