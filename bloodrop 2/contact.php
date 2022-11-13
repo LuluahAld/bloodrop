@@ -42,21 +42,21 @@ session_start();
         <br><br>
         
         <form action="https://formsubmit.co/443e12896ca15fe7038d0c90e1acc863"  method="POST">
-            <fieldset ><br><br>
+            <fieldset >
                 <a style = "font-size: 25px;">Email Us</a><br> 
-                <br><br>
+                
                 <input type="hidden" name="_next" value="https://bloo-drop.herokuapp.com/thanks.php">
                 <input type="hidden" name="_captcha" value="false">
-               <br>
+                 
                 <label for="nameC">Name</label> <br> 
                  <input style="width:80%;" type="text" name="nameC" id="nameC" placeholder="Enter your name"  required>
-               <br>
+               
                 <label for="emailC">Email </label> <br> 
                 <input style="width:80%;" type="text" name="emailC" id="emailC" placeholder="Enter your email" required>
-                <br>
+                
                 <label for="messageContact">Concern</label> <br> 
                 <input style="width:80%;" type="text" name="messegeContact" id="messegeContact" placeholder="Enter your message" required>
-                <br><br>
+                
                 <button type="submit" style = "font-size:23px;">Send Concern</button>
                 <br><br>
             </fieldset>
