@@ -66,7 +66,7 @@ session_start();
                     <a href="gallery.php"><b><i>Pictures</i></b></a>
                 </div>
         </li>
-        <li><a href="resume.php">
+        <li><a href="bloodrop 2/resume.php">
                 <font size="+1.75"><b>Get to know us</b></font>
             </a></li>
         <?php if (isset($_SESSION['loggedin'])): ?>
