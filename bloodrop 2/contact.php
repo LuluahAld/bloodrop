@@ -50,7 +50,7 @@ session_start();
                 <label for="nameC">Name</label> 
                  <input type="text" name="nameC" id="nameC" placeholder="Enter your name" required>
                 <br>
-                <label for="password">Email </label> 
+                <label for="emailC">Email </label> 
                 <input type="text" name="emailC" id="emailC" placeholder="Enter your email" required>
                 <br>
                 <label for="messageContact">Concern</label> 
