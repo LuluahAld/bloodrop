@@ -33,14 +33,14 @@ session_start();
 
 
     <!--Start div for contact information-->
-    <div class="pages">
+    <div class="container">
         <h1>Find us here!</h1>
 
         <br><br>
         <!--Email buttons and link-->
 
         <br><br>
-        <div class = container>
+        
         <form action="https://formsubmit.co/443e12896ca15fe7038d0c90e1acc863"  method="POST">
             <fieldset ><br><br>
                 <a style = "font-size: 25px;">Email Us</a>
@@ -62,7 +62,8 @@ session_start();
             </fieldset>
             
         </form>
-            </div>
+        </div>
+            
         &nbsp;&nbsp;
         <br><br><br>
         <!--Add social media buttons and links-->
@@ -90,7 +91,7 @@ session_start();
         <a href="https://apps.apple.com/sa/app/%D8%B5%D8%AD%D8%AA%D9%8A-sehhaty/id1459266578?l=ar">
             <img src="../images/appStore.png" alt="App Store" width="20%" height="10%"hspace="70" />
         </a>
-    </div>
+    
     <br><br><br><br>
     <script src="../javascript/email.js"></script>
 
