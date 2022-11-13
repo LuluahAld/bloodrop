@@ -44,7 +44,7 @@ session_start();
     <!-- four columns for small pictures -->
     <div class="rowG">
         <span class="columnG">
-            <img src="../images/G1.png" alt="" width="20%" height="10%" onclick="myFunction(this);">
+            <img src="../images/G1.png" alt="" width="50%" height="10%" onclick="myFunction(this);">
 </span>
         <span class="columnG">
             <img src="../images/G2.png" alt="" width="20%" height="10%" onclick="myFunction(this);">
