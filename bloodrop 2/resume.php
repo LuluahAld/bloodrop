@@ -30,10 +30,10 @@ session_start();
 
     <div class="pages">
         <h1>Website Devolepers' Resumes</h1>
-        <object id="myPdf" type="application/pdf" data="../txt/LuluahAldakhil_CVC.pdf" width="100%" height="1000px">
+        <object id="myPdf" type="application/pdf" data="../txt/LuluahAldakhil_CVC.pdf" width="100%" height="900px">
             Unable to open the PDF file.
         </object>
-        <object id="myPdf" type="application/pdf" data="../txt/CV.pdf" width="100%" height="1000px">
+        <object id="myPdf" type="application/pdf" data="../txt/CV.pdf" width="100%" height="800px">
             Unable to open the PDF file.
         </object>
     </div>
