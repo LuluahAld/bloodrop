@@ -203,7 +203,7 @@ $stmt->bind_param("sssiiissssssssss",
                 <!--fieldset body-->
                 <label class="blockLabel">
                     First Name<span class="star">*</span>
-                    <input style = "width: 30%;"type="text" id="fName" name="fName" required />
+                    <input type="text" id="fName" name="fName" required />
                 </label>
                 <label class="blockLabel">
                     Last Name<span class="star">*</span>
