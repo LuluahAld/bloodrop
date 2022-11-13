@@ -232,7 +232,7 @@ $stmt->bind_param("sssiiissssssssss",
                 <!--fieldset body-->
                 <label class="blockLabel">
                     Age<span class="star">*</span>
-                    <input type="text" id="age" name="age" />
+                    <input type="text" id="age" name="age" required/>
                 </label>
                 <?php if ($is_invalidAn AND !empty($age)): ?>
         <em style="color: red ; font-size: 13px;"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -257,7 +257,7 @@ $stmt->bind_param("sssiiissssssssss",
 
                 <label class="blockLabel">
                     Weight (in Kg)<span class="star">*</span>
-                    <input type="text" id="Weight" name="Weight" />
+                    <input type="text" id="Weight" name="Weight"required />
                 </label>
                 <?php if ($is_invalidW AND !empty($Weight)): ?>
         <em style="color: red ; font-size: 13px;"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -282,7 +282,7 @@ $stmt->bind_param("sssiiissssssssss",
                 </label>
 
                 <label class="blockLabel2">
-                    <input type="checkbox" id="travel" name="travel" value="No"/>
+                    <input type="checkbox" id="travel" name="travel" value="No" required/>
                     <span class="star">*</span>I did not leave Saudi Arabia for the last 3 months
                     
                 </label>
@@ -300,7 +300,7 @@ $stmt->bind_param("sssiiissssssssss",
                 <textarea id="comments" name="comments" rows="5" cols="40" placeholder="If yes, please mention them here."></textarea>
 
                 <label class="blockLabel2">
-                    <input type="checkbox" id="info" name="info" value="Declare"  />
+                    <input type="checkbox" id="info" name="info" value="Declare"  required/>
                     <span class="star">*</span>I declare that the information above is true.
                     
                     
