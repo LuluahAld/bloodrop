@@ -53,13 +53,13 @@ session_start();
                 <input type="hidden" name="_captcha" value="false">
                  
                 <label for="nameC">Name</label> 
-                 <input style="width:75%;" type="text" name="nameC" id="nameC" placeholder="Enter name"  >
+                 <input align="middle" style="width:80%;" type="text" name="nameC" id="nameC" placeholder="Enter name"  >
                
                 <label for="emailC">Email </label> 
-                <input  style="width:75%;" type="text" name="emailC" id="emailC" placeholder="Enter email" >
+                <input  align="middle"style="width:80%;" type="text" name="emailC" id="emailC" placeholder="Enter email" >
                 
                 <label for="messageContact">Concern</label> <br> 
-                <input style="width:75%;" type="text" name="messegeContact" id="messegeContact" placeholder="Enter message" required>
+                <input align="middle" style="width:80%;" type="text" name="messegeContact" id="messegeContact" placeholder="Enter message" required>
                 
                 <button type="submit" style = "font-size:23px;">Send Concern</button>
                 <br><br>
