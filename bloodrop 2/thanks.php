@@ -18,6 +18,7 @@ session_start();
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../CSS/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
+    <link rel="stylesheet" href="../CSS/style2.css" />
 </head>
 
 <body>
