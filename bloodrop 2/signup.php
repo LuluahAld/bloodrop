@@ -170,7 +170,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             </b></em><br>
             
     <?php endif; ?> 
-            <button type="submit" style = "font-size: 23px;">Signup</button>   
+            <br><br><button type="submit" style = "font-size: 23px;">Signup</button>   
             <br><br> 
             <a href="loginby.php" style="color: black ; font-size: 18px;">Have an account? Login </a>   
         </div>   
