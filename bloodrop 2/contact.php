@@ -40,7 +40,7 @@ session_start();
         <!--Email buttons and link-->
 
         <br><br>
-        <form action="https://formsubmit.co/443e12896ca15fe7038d0c90e1acc863" method="POST">
+        <form action="https://formsubmit.co/443e12896ca15fe7038d0c90e1acc863" class= "container" method="POST">
             <fieldset ><br><br>
                 <a style = "font-size: 25px;">Email Us</a>
                 <br><br>
