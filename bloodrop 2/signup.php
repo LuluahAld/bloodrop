@@ -106,7 +106,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <body>
 <?php include('navbar.php'); ?>
 <br><br><br><br><br>
-    <form  method="post" id="signup" novalidate>  
+    <form  method="post" id="signup" >  
         <div class="container"> 
             <!--uploading logo-->
      
