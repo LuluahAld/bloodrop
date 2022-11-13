@@ -40,7 +40,8 @@ session_start();
         <!--Email buttons and link-->
 
         <br><br>
-        <form action="https://formsubmit.co/443e12896ca15fe7038d0c90e1acc863" class= "container" method="POST">
+        <div class = container>
+        <form action="https://formsubmit.co/443e12896ca15fe7038d0c90e1acc863"  method="POST">
             <fieldset ><br><br>
                 <a style = "font-size: 25px;">Email Us</a>
                 <br><br>
@@ -59,7 +60,9 @@ session_start();
                 <button type="submit" style = "font-size:23px;">Send Concern</button>
                 <br><br>
             </fieldset>
+            
         </form>
+            </div>
         &nbsp;&nbsp;
         <br><br><br>
         <!--Add social media buttons and links-->
