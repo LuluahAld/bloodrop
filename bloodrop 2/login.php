@@ -87,7 +87,13 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             (Please check login credentials)</b></em>
     <?php endif; ?>
     <br><br>
-            <a href="signup.php" style="color: black ; font-size: 18px;"  > Don't have an account? Signup </a>   
+            <a href="signup.php" style="color: black ; font-size: 18px;"  > Don't have an account? Signup </a>  
+		<p>
+      <label>
+
+        <input type="checkbox" name="remember_me" id="remember_me">
+        Remember me 
+      </label>
         </div>   
     </form>     
 
