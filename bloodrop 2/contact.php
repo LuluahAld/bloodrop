@@ -53,14 +53,14 @@ session_start();
                 <input type="hidden" name="_captcha" value="false">
                 
                  
-                <a style = "font-size = 15px;">Name</a> <br>
+                <a style = "font-size = 20px;">Name</a> <br>
                  <input align="middle" style="width:80%;" type="text" name="nameC" id="nameC" placeholder="Enter name" ><br>
                
-                <a style = "font-size = 15px;">Email</a> <br>
+                <a style = "font-size = 20px;">Email</a> <br>
                 <input  align="middle"style="width:80%;" type="text" name="emailC" id="emailC" placeholder="Enter email" ><br>
                 
-                <a style = "font-size = 15px;">Concern</a> <br> 
-                <input align="middle" style="width:80%;" type="text" name="messegeContact" id="messegeContact" placeholder="Enter message" required>
+                <a style = "font-size = 20px;">Concern</a> <br> 
+                <input align="middle" style="width:80%; height: 130%" type="text" name="messegeContact" id="messegeContact" placeholder="Enter message" required>
                 
                 <button type="submit" style = "font-size:23px;">Send Concern</button>
                 <br><br>
