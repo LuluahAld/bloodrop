@@ -25,7 +25,7 @@ session_start();
     <!--uploading logo-->
    
     
-    <br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br>
     <div class="container">
         <br>
     <img src="../images/logo.PNG" alt="" width="230" height="175" />
