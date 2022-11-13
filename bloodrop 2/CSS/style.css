@@ -290,21 +290,7 @@ table, th, td {
 }
 
 /* Contact Us Page */
-#nameC{
-    position: relative;
-    margin-left:10% ;
-    width: 20%
-}
-#emailC{
-    position: relative;
-    margin-right: 10%;
-    width: 20%
-}
-#messegeContact{
-    margin: 12px 10% 12px 10%;
-    width: 70%;
-    height: 50px;
-}
+
 /* Social */
 .contactUs img {
     display: inline;
