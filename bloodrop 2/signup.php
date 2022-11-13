@@ -116,7 +116,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <!--beginning of input & labels for login info-->
     <br>  
             <label for="username"> Username</label>  <br> 
-            <input type="text" placeholder="Enter Username" name="username"  id = "username" >  <br>
+            <input type="text" placeholder="Enter Username" name="username"  id = "username" required >  <br>
             <?php if ($invalidU): ?>
         <em style="color: red ; font-size: 20px; text-allign: left"><b>
             Username already used<br>
@@ -131,7 +131,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <?php endif; ?>
 
             <label for="email"> Email </label>  <br> 
-            <input type="text" placeholder="Enter Email" name="email"  id = "email" >  <br>
+            <input type="text" placeholder="Enter Email" name="email"  id = "email"required >  <br>
             <?php if ($invalidE): ?>
         <em style="color: red ; font-size: 20px; text-allign: left"><b>
             Email already used<br>
