@@ -32,7 +32,7 @@ session_start();
     <img src="../images/logo.PNG" alt="" width="230" height="175" />
     <br>
         <h1>Thank You!</h1>
-        Your message is sent.<br> We will take it into careful consideration and responed back as soon as possible
+        Your message has been sent.<br> We will take it into careful consideration and responed back as soon as possible
         <br>
     </div>
     <br><br><br><br>
