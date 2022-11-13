@@ -47,8 +47,8 @@ session_start();
         <form action="https://formsubmit.co/443e12896ca15fe7038d0c90e1acc863"  method="POST">
             <fieldset >
                 <br>
-                <a style = "font-size: 25px;">Contact Information</a><br><br>
-                <a>(We need your valid email in order to respond)</a>
+                <a style = "font-size: 25px;">Contact Information</a><br>
+                <a>(We need your valid email in order to respond)</a><br><br>
                 <input type="hidden" name="_next" value="https://bloo-drop.herokuapp.com/thanks.php">
                 <input type="hidden" name="_captcha" value="false">
                 
