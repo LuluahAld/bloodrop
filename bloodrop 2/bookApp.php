@@ -203,15 +203,15 @@ $stmt->bind_param("sssiiissssssssss",
                 <!--fieldset body-->
                 <label class="blockLabel">
                     First Name<span class="star">*</span>
-                    <input type="text" id="fName" name="fName" />
+                    <input style = "width: 30%;"type="text" id="fName" name="fName" required />
                 </label>
                 <label class="blockLabel">
                     Last Name<span class="star">*</span>
-                    <input type="text" id="lName" name="lName" />
+                    <input type="text" id="lName" name="lName" required/>
                 </label>
                 <label class="blockLabel">
                     Phone<span class="star">*</span>
-                    <input type="text" id="phone" name="phone" maxlength="10" /> 
+                    <input type="text" id="phone" name="phone" maxlength="10" required/> 
                 </label>
              
     <?php if ($is_invalidP AND !empty($phone)): ?>
@@ -431,7 +431,6 @@ $stmt->bind_param("sssiiissssssssss",
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </form>
     </div>
-    <script src="non-empty.js"></script>
 </body>
 
 </html>
