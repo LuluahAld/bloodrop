@@ -84,7 +84,8 @@ session_start();
             <div class="dropdown-content">
                 
                 <a href="bookApp.php"><b><i>Book Appointment</i></b></a>
-                <a href="donationR.php"><b><i>View Appointments Booked</i></b></a>
+                <a href="donationR.php"><b><i>View Appointment Booked</i></b></a>
+                <a href="delete.php"><b><i>Delete Appointment</i></b></a>
                 <a href="donationC.php"><b><i>View Donation Centers</i></b></a>
                 
             </div>
