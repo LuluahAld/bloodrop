@@ -2,7 +2,15 @@
 <?php
 
 session_start();
-
+$email=$_SESSION['email'];
+$mysqli = require __DIR__ . "/database.php";   
+$sql="select * from bookapp where (email='$email');";;
+$result=mysqli_query($mysqli,$sql);
+$singleRow = mysqli_fetch_row($result);
+if (!empty($singleRow)) {
+     header('Location: donationR.php');
+    exit;
+    }
 
 ?>
 <!DOCTYPE html>
