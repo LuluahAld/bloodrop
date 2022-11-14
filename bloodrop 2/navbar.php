@@ -43,7 +43,7 @@ session_start();
             </a></li>
     
             <?php if (!isset($_SESSION['loggedin'])): ?>
-        <li class="dropdown" style= "float:right;>
+        <li class="dropdown" class = "right">
             <a href="javascript:void(0)" class="dropbtn">
                 <font size="+1.75"><b>User</b></font>
             </a>
