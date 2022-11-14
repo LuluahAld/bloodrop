@@ -60,7 +60,7 @@ session_start();
                 <input  align="middle"style="width:80%;" type="text" name="emailC" id="emailC" placeholder="Enter email" ><br>
                 
                  <label for="messegeContact">Concern</label>  <br> 
-                <input align="middle" style="width:80%; height: 300px" type="text" name="messegeContact" id="messegeContact" placeholder="Enter message" required>
+                <input align="middle" style="width:80%; height: 200%" type="text" name="messegeContact" id="messegeContact" placeholder="Enter message" required>
                 <a href="thanks.php">
                 <button type="submit" style = "font-size:23px;">Submit</button>
                 </a>
