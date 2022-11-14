@@ -76,15 +76,15 @@ session_start();
         <a style = "font-size: 25px;">Social Media</a><br>
         <br><br>
         <a href="https://twitter.com/SaudiMOH">
-            <img src="../images/twitter.png" alt="Twitter" width="20%" height="10%" hspace="50" />
+            <img src="../images/twitter.png" alt="Twitter" width="20%" height="10%" hspace="40" />
         </a>
         &nbsp;&nbsp;
         <a href="https://www.instagram.com/saudimoh/">
-            <img src="../images/insta.png" alt="Instagram" width="20%" height="10%"  hspace="50" />
+            <img src="../images/insta.png" alt="Instagram" width="20%" height="10%"  hspace="40" />
         </a>
         &nbsp;&nbsp;
         <a href="https://www.youtube.com/c/Saudimoh">
-            <img src="../images/YouTube.png" alt="YouTube" width="20%" height="10%" hspace="50"/>
+            <img src="../images/YouTube.png" alt="YouTube" width="20%" height="10%" hspace="40"/>
         </a>
         <br><br><br>
         <!--Add the application buttons and links-->
