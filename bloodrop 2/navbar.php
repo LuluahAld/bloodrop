@@ -38,12 +38,9 @@ session_start();
         <li><a href="index.php">
                 <font size="+1.75"><b>Homepage</b></font>
             </a></li>
-            <li><a href="contact.php">
-                <font size="+1.75"><b>Contact Us</b></font>
-            </a></li>
-    
+        
             <?php if (!isset($_SESSION['loggedin'])): ?>
-        <li class="dropdown" style= "float:right;">
+        <li class="dropdown">
             <a href="javascript:void(0)" class="dropbtn">
                 <font size="+1.75"><b>User</b></font>
             </a>
@@ -56,9 +53,7 @@ session_start();
 
             </div>
             <?php endif; ?>
-            <!--use of dropdown for navbar-->
-            
-            <li class="dropdown">
+             <li class="dropdown">
                 <a href="javascript:void(0)" class="dropbtn">
                     <font size="+1.75"><b>Media</b></font>
                 </a>
@@ -67,6 +62,13 @@ session_start();
                     <a href="gallery.php"><b><i>Pictures</i></b></a>
                 </div>
         </li>
+            <li><a href="contact.php">
+                <font size="+1.75"><b>Contact Us</b></font>
+            </a></li>
+    
+            <!--use of dropdown for navbar-->
+            
+           
         <li><a href="resume.php">
                 <font size="+1.75"><b>Get to know us</b></font>
             </a></li>
