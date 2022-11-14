@@ -47,6 +47,7 @@ session_start();
     <b style="color: rgb(162, 161, 161); font-size: 25px;"> Hello, <?php echo $_SESSION['username']; ?><br> <br>
     <b style="color: rgb(162, 161, 161); font-size: 20px;"> You've already booked an appointment for this email <br>(<?php echo $_SESSION['email']; ?>)<br> <br>
     <a href="donationR.php" style = "color: black;"><b>View Appointments Details</b></a>
+    <a href="deleted.php" style = "color: black;"><b>Delete Appointment</b></a>
    </b>
     <br>  <br> <br> <br> 
            </div>   
