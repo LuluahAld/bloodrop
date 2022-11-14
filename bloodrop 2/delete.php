@@ -57,7 +57,7 @@ if (empty($singleRow)) {
     <b style="color: rgb(162, 161, 161); font-size: 25px;">Confirming that you really want to delete the appointment.</b>
   
     <br>  <br><br>
-    <a href="deletd.php">
+    <a href="deleted.php">
         <button style="background-color:rgb(204, 204, 204);border-color:black;color:black; font-size: 23px;">Delete Appointment</button>
     </a><br><br>
     <a href="index.php">
