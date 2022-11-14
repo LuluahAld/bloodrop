@@ -71,7 +71,7 @@ session_start();
         
             
         &nbsp;&nbsp;
-        <br><br><br>
+        <br><br><br><br><br><br>
         <!--Add social media buttons and links-->
         <a style = "font-size: 25px;">Social Media</a><br>
         <br><br>
