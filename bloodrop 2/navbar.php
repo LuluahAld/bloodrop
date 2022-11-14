@@ -43,11 +43,11 @@ session_start();
             </a></li>
     
             <?php if (!isset($_SESSION['loggedin'])): ?>
-        <li class="dropdown">
+        <li class="dropdown" style= "float:right;>
             <a href="javascript:void(0)" class="dropbtn">
                 <font size="+1.75"><b>User</b></font>
             </a>
-            <div class="dropdown-content" style= "float:right;>
+            <div class="dropdown-content" >
                 <a href="loginby.php"><b><i>Login</i></b></a>
                 <a href="signup.php"><b><i>Sign up</i></b></a>
                 <a href="bookApp.php"><b><i>Book Appointment</i></b></a>
