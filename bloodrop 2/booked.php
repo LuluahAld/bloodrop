@@ -44,7 +44,7 @@ session_start();
         <img src="../images/logo.PNG" alt="" width="230" height="175" />
     
     <br><br><br>
-    <b style="color: rgb(162, 161, 161); font-size: 25px;"> Hello, <?php echo $_SESSION['username']; ?><br> <br>
+    <b style="color: rgb(162, 161, 161); font-size: 25px;"> We apologize, <?php echo $_SESSION['username']; ?><br> <br>
     <b style="color: rgb(162, 161, 161); font-size: 20px;"> You've already booked an appointment for this email <br>(<?php echo $_SESSION['email']; ?>)<br> <br>
     <a href="donationR.php" style = "color: black;"><b>View Appointments Details</b></a><br><br>
     <a href="deleted.php" style = "color: black;"><b>Delete Appointment</b></a>
